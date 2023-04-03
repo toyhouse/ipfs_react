@@ -19,6 +19,7 @@ export default function Home() {
 
   return (
     <div className="container">
+      <h1>This is a trial application to see if Thirdweb-based React App can upload images to IPFS</h1>
       <div {...getRootProps()}>
       <input {...getInputProps()} />
       <button>Drop files here to upload them to IPFS</button>
